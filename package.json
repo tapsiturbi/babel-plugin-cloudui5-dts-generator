@@ -18,7 +18,12 @@
         "type": "git",
         "url": "git@github.com:tapsiturbi/babel-plugin-cloudui5-dts-generator.git"
     },
-    "keywords": ["sapui5", "openui5", "typescript", "cloudui5"],
+    "keywords": [
+        "sapui5",
+        "openui5",
+        "typescript",
+        "cloudui5"
+    ],
     "author": "Levy Bajamundi <levybajamundi@gmail.com>",
     "license": "MIT",
     "bugs": {
@@ -34,6 +39,7 @@
         "@babel/plugin-proposal-decorators": "^7.15.4",
         "@babel/preset-env": "^7.15.6",
         "@babel/preset-typescript": "^7.15.0",
+        "@openui5/ts-types-esm": "^1.93.2",
         "babel-preset-transform-ui5": "^7.0.5"
     }
 }

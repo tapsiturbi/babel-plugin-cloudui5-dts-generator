@@ -1,0 +1,1 @@
+styleAttr = string type,editable = boolean type,startDate = Date type,values = any[] type,counter = float type,largeNumber = float type,numbers = float[] type

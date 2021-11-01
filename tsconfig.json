@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "moduleResolution": "node",
+        "target": "es6",
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": false,
+        "noEmit": true,
+        "noEmitHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "./",
+        "typeRoots": [
+            "./src/typings",
+            "./node_modules/@types",
+            "./node_modules/@openui5/ts-types-esm"
+        ]
+    },
+    "exclude": [
+        "node",
+		"node_modules",
+        "Component-preload.js"
+    ]
+}
